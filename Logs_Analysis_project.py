@@ -13,6 +13,7 @@ query2 = """SELECT authors.name, count(*) as views
             FROM articles
             inner JOIN authors on articles.author = authors.id
             inner JOIN log on log.path LIKE concat('%', articles.slug, '%')
+            WHERE log.status LIKE '%200%'
             GROUP BY authors.name
             ORDER BY views DESC;"""
 
