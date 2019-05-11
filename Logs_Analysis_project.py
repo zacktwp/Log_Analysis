@@ -32,16 +32,19 @@ cursor = db.cursor()
 cursor.execute(query1)
 # Return result of the query
 result1 = cursor.fetchall()
+print('What are the most popular three articles of all time?')
 print(result1)
 
 cursor.execute(query2)
 # Return result of the query
 result2 = cursor.fetchall()
+print('Who are the most popular article authors of all time?')
 print(result2)
 
 cursor.execute(query3)
 # Return result of the query
 result3 = cursor.fetchall()
+print('On which days did more than 1% of requests lead to errors?')
 print(result3)
 
 db.close()
