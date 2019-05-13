@@ -1,16 +1,19 @@
-Question 1:
 What are the most popular three articles of all time?
-[('/', 479121L),
-('/article/candidate-is-jerk', 338647L),
-('/article/bears-love-berries', 253801L)]
 
-Question 2:
+Candidate is jerk, alleges rival with 338647 views
+
+Bears love berries, alleges bear with 253801 views
+
+Bad things gone, say good people with 170098 views
+
 Who are the most popular article authors of all time?
-[('Ursula La Multa', 507594L),
-('Rudolf von Treppenwitz', 423457L),
-('Anonymous Contributor', 170098L),
-('Markoff Chaney', 84557L)]
 
-Question 3:
+Ursula La Multa with 507594 views
+
+Rudolf von Treppenwitz with 423457 views
+
+Anonymous Contributor with 170098 views
+
 On which days did more than 1% of requests lead to errors?
-[(datetime.date(2016, 7, 17), Decimal('2.26'))]
+
+2016-07-17 with error of 2.26 percent
